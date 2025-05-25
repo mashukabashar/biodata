@@ -22,12 +22,12 @@
       <label for="height">Height:</label>
       <input type="text" id="height" name="height">
 
-      <label for="marital">Marital Status:</label>
-      <select id="marital" name="marital">
-        <option value="unmarried">Unmarried</option>
-        <option value="divorced">Divorced</option>
-        <option value="widowed">Widowed</option>
-      </select>
+      <label>Marital Status:</label>
+      <div class="radio-group">
+        <label><input type="radio" name="marital" value="unmarried"> Unmarried</label>
+        <label><input type="radio" name="marital" value="divorced"> Divorced</label>
+        <label><input type="radio" name="marital" value="widowed"> Widowed</label>
+      </div>
 
       <label for="religion">Religion:</label>
       <input type="text" id="religion" name="religion">
@@ -41,12 +41,11 @@
       <label for="nationality">Nationality:</label>
       <input type="text" id="nationality" name="nationality">
 
-      <label for="gender">Gender:</label>
-      <select id="gender" name="gender">
-        <option value="female">Female</option>
-        <option value="male">Male</option>
-        <option value="other">Other</option>
-      </select>
+      <label>Gender:</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+      </div>
 
       <label>Hobbies:</label>
       <div class="checkbox-group">
@@ -59,14 +58,15 @@
 
       <h3>Education & Career</h3>
 
-      <label for="education">Highest Education:</label>
+
+      <label for="profession">Profession:</label>
+      <input type="text" id="profession" name="profession">
+
+      <label for="education">B.Sc. Passing Year:</label>
       <input type="text" id="education" name="education">
 
       <label for="universityname">University Name:</label>
       <input type="text" id="universityname" name="universityname">
-
-      <label for="profession">Profession:</label>
-      <input type="text" id="profession" name="profession">
 
       <label for="hsc_year">HSC Passing Year:</label>
       <input type="text" id="hsc_year" name="hsc_year">
@@ -105,17 +105,12 @@
       <label for="phone">Phone Number:</label>
       <input type="tel" id="phone" name="phone">
 
-      <label for="github">GitHub Profile:</label>
-      <input type="url" id="github" name="github">
-
-      <label for="linkedin">LinkedIn Profile:</label>
-      <input type="url" id="linkedin" name="linkedin">
 
       <button type="submit">Submit</button>
     </form>
   </div>
 
-  <!-- hi i am mashuka -->
+
 
 </body>
 </html>
